@@ -19,3 +19,12 @@ docker run hello-world
 ```
 docker image rm -f hello-world:latest
 ```
+
+# Установил и запустил NGINX с портом 80
+```
+docker run -p 80:80 nginx
+```
+# Проверил работу в браузере по IP сервера
+```
+10.12.24.4:80
+```
